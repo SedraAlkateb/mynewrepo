@@ -1,0 +1,15 @@
+controller c1 controls gg{
+ switch(request->name)
+  	case:"nwar"
+ $A1 = array["red","green","blue"];
+  	break;
+
+  	case:"mohammad"
+ if($fd)
+  {
+  goto p($d);
+  print("d");
+  }
+  	break;
+endswitch
+}
